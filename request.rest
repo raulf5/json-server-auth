@@ -1,0 +1,22 @@
+POST http://localhost:1234/register
+Content-Type: application/json
+
+{
+  "email": "otro@mail.com",
+  "password": "1234"
+}
+
+###########
+
+POST http://localhost:1234/login
+Content-Type: application/json
+
+{
+  "email": "mi@mail.com",
+  "password": "1234"
+}
+
+##### GET
+GET http://localhost:1234/600/experiencias
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pQG1haWwuY29tIiwiaWF0IjoxNjU0Nzc4NDEwLCJleHAiOjE2NTQ3ODIwMTAsInN1YiI6IjEifQ.TKiw8hmSr0W-N104AYhMGhL3-VU8z4f0GiMeAovVGhk
+
